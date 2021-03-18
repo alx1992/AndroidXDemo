@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    android:id="@+id/lLayout_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wbank_ios_alert_bg"
+    android:orientation="vertical"
+    skin:keep_view="true">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:lineSpacingExtra="6dp"
+        android:gravity="center"
+        android:textColor="@color/wbank_black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        skin:keep_view="true" />
+
+    <ImageView
+        android:id="@+id/iv_loading"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-10dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/wbank_ios_loading"
+        android:visibility="gone"
+        skin:keep_view="true" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/txt_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:lineSpacingExtra="10dp"
+        android:textColor="@color/wbank_black"
+        android:textSize="13.3dp"
+        skin:keep_view="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/wbank_alertdialog_line"
+        skin:keep_view="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        skin:keep_view="true">
+
+        <Button
+            android:id="@+id/btn_neg"
+            android:layout_width="wrap_content"
+            android:layout_height="28.67dp"
+            android:layout_weight="1"
+            android:background="@drawable/wbank_ios_alertdialog_left_selector"
+            android:gravity="center"
+            android:textColor="@color/wbank_actionsheet_blue"
+            android:textSize="13.3dp"
+            skin:keep_view="true" />
+
+        <ImageView
+            android:id="@+id/img_line"
+            android:layout_width="1dp"
+            android:layout_height="28.67dp"
+            android:background="@color/wbank_alertdialog_line"
+            skin:keep_view="true" />
+
+        <Button
+            android:id="@+id/btn_pos"
+            android:layout_width="wrap_content"
+            android:layout_height="28.67dp"
+            android:layout_weight="1"
+            android:background="@drawable/wbank_ios_alertdialog_right_selector"
+            android:gravity="center"
+            android:textColor="@color/wbank_actionsheet_blue"
+            android:textSize="13.33dp"
+            skin:keep_view="true" />
+
+        <!-- android:textStyle="bold" -->
+    </LinearLayout>
+
+</LinearLayout>

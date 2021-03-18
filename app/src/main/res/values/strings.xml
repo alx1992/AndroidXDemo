@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidXDemo</string>
+    <string name="button">发消息</string>
+    <string name="btn">启动</string>
+</resources>
