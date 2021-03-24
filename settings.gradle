@@ -1,4 +1,6 @@
+include ':viewpagerdemo'
+include ':commonlib'
+include ':floatwindow'
 include ':camerademo'
 include ':launchmode'
-include ':app'
 rootProject.name = "AndroidXDemo"

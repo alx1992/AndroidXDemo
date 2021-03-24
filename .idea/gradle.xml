@@ -11,9 +11,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/camerademo" />
+            <option value="$PROJECT_DIR$/commonlib" />
+            <option value="$PROJECT_DIR$/floatwindow" />
             <option value="$PROJECT_DIR$/launchmode" />
+            <option value="$PROJECT_DIR$/viewpagerdemo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
